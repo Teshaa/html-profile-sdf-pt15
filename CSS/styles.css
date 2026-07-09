@@ -1,4 +1,8 @@
 
+      *{
+        box-sizing: border-box;
+      }
+      
       h1{
          color: darkgreen;
          text-decoration: underline;
@@ -13,4 +17,30 @@
          font-family: 'Trebuchet MS';
          font-style: normal;
       }
-    
+
+    #js-list-item{
+      color: chartreuse;
+    }
+    .hobbies-li{
+      color: rgb(15, 200, 155)
+    }
+    span{
+      color: darkorchid;
+    }
+    #CAPTION{
+      background-color: blueviolet;
+      border: solid 1px purple;
+      border-radius: 5px;
+
+      padding:16px;
+      margin: 0px;
+
+   }
+
+   img{
+    float: left;
+    margin-right: 8px;
+   }
+   #Skills-heading{
+    clear: both;
+   }
